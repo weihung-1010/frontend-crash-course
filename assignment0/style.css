@@ -1,0 +1,589 @@
+/* rest css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*rest css end */
+html,
+body {
+    font-size: 18px;
+    font-family: 'Poppins';
+    position: relative;
+    height: 100%;
+}
+
+/* header */
+
+header {
+    max-width: 1248px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 44px auto;
+}
+
+
+.items-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-left: -450px;
+}
+
+.items-box li {
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Quella';
+    font-size: 24px;
+
+}
+
+
+.items-box-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.line::after {
+    content: '';
+    border: 1px solid #1E1E1E;
+    transform: rotate(-90deg);
+    margin-left: 50px;
+}
+
+/* content banner*/
+.content-box {
+    position: relative;
+    max-width: 1248px;
+    height: 512px;
+    margin: auto;
+    background-color: #C1DCDC;
+    border-radius: 24px;
+    padding: 48px;
+}
+
+.content-title {
+    width: 512px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.text-box {
+    display: flex;
+    gap: 50px;
+    margin-top: 24px;
+}
+
+.text-box h3 {
+    margin-bottom: 5px;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.line-2 {
+    /* margin-left: 10px; */
+    border: 1px solid #1E1E1E;
+}
+
+.input-box {
+    position: relative;
+}
+
+.input-style {
+    width: 449px;
+    height: 64px;
+    position: relative;
+    border: none;
+    border-radius: 12px;
+    background: #FFFFFF;
+    margin-top: 50px;
+}
+
+::placeholder {
+    color: rgba(30, 30, 30, 0.5);
+}
+
+.search-btn {
+    position: absolute;
+    left: 393px;
+    top: 58px;
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: #C1DCDC;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.tree-img {
+    position: absolute;
+    z-index: 99;
+    top: 18px;
+    right: 40px;
+}
+
+.tree-background {
+    position: absolute;
+    top: 112px;
+    right: 80px;
+    z-index: 10;
+    width: 450px;
+    height: 400px;
+    background: #1E1E1E;
+    border-radius: 200px 200px 0px 200px;
+}
+
+.arrow01 {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+}
+
+.arrow02 {
+    position: absolute;
+    top: 335.19px;
+    left: 522px;
+}
+
+/* content-product */
+
+.content-product {
+    max-width: 1248px;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+}
+
+.plants-title {
+    width: 256px;
+    height: 96px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.plants-text {
+    margin-top: 12px;
+    width: 196px;
+    height: 81px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+}
+
+.more-btn {
+    background-color: #C1DCDC;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    margin-top: 24px
+}
+
+.products-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.products-box div {
+    cursor: pointer;
+}
+
+.product-name {
+    margin-top: 12px;
+}
+
+.product-price {
+    color: rgba(30, 30, 30, 0.5);
+    margin-top: 7px;
+}
+
+/* about-us-wrapper */
+
+.about-us-wrapper {
+    max-width: 1248px;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.title-category {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-us-title {
+    font-size: 32px;
+}
+
+.title-category p {
+    color: rgba(30, 30, 30, 0.5);
+    margin-top: 12px
+}
+
+.about-items-box {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 165px;
+}
+
+.about-items-box div {
+    text-align: center;
+}
+
+.icon-wrapper {
+    position: relative;
+    background-color: #C1DCDC;
+    width: 96px;
+    height: 96px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.items-icon-img {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+}
+
+.icon-title {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.icon-text {
+    color: rgba(30, 30, 30, 0.5);
+}
+
+/* categories-wrapper */
+
+.categories-wrapper {
+    margin-top: 96px;
+    background-color: #C1DCDC;
+}
+
+.categories-box {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.explore-wrapper {
+    margin-top: 96px;
+    background-color: #C1DCDC;
+    height: 841px;
+}
+
+.explore-wrapper {
+    position: relative;
+}
+
+.plant-box01 {
+    position: absolute;
+    top: -50px;
+    left: 96px;
+}
+
+.plant-box01 h4 {
+    text-align: center;
+    margin-top: 12px
+}
+
+.plant-box02 {
+    text-align: center;
+    padding-top: 48px;
+    max-width: 352px;
+    margin: 0 auto;
+}
+
+.plant-box02 h4 {
+    text-align: center;
+    margin: 12px 0;
+}
+
+.plant-box02 p {
+    color: rgba(30, 30, 30, 0.5);
+}
+
+.explore-btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #FFF;
+    margin-top: 12px;
+    border: none;
+}
+
+.plant-box03 {
+    position: absolute;
+    top: -50px;
+    right: 96px;
+}
+
+.plant-box03 h4 {
+    text-align: center;
+    margin-top: 12px
+}
+
+/* case-box */
+
+.case-box {
+    margin-top: 96px;
+}
+
+.case-title {
+    font-size: 32px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    width: 457px;
+    margin-left: 96px;
+}
+
+/* swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    position: relative;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 330px;
+    background-color: #C1DCDC;
+    padding: 48px 48px 0px 48px;
+    margin-left: 96px;
+    border-radius: 12px;
+}
+
+.swiper-slide img {
+    display: inline-block;
+    object-fit: cover;
+    margin-left: -40px;
+}
+
+.swiper-box {
+    margin-top: 96px;
+}
+
+.detail-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers-info {
+    margin-top: 54px;
+    margin-left: -440px;
+}
+
+.profession {
+    color: rgba(30, 30, 30, 0.5);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.score-box {
+    margin-top: 54px;
+    margin-right: 10px;
+}
+
+.swiper-pagination {
+    position: absolute;
+    top: -20;
+}
+
+/* footer */
+footer {
+    margin-top: 230px;
+    background-color: #C1DCDC;
+    height: 400px;
+    padding: 48px 97px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    font-family: 'Quella';
+}
+
+.footer-text {
+    margin-top: 24px;
+    width: 189px;
+    height: 54px;
+    color: rgba(30, 30, 30, 0.5);
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.community-icon {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.a-icon {
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(30, 30, 30, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.copyright{
+    color: rgba(30, 30, 30, 0.5);
+    margin-top: 98px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-items h5{
+    font-weight: 700;
+    color: #1E1E1E;
+}
+
+.footer-items a{
+    font-weight: 400;
+    color: rgba(30, 30, 30, 0.5);
+}
